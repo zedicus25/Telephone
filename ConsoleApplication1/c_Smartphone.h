@@ -18,10 +18,9 @@ public:
 		this->ram = ram;
 	}
 
-	friend std::ostream& operator<<(std::ostream& out, const c_Smartphone& tel) {
-		out << "Name: " << tel.name << "\tModel: " << tel.model <<"\tDiagonal: " << tel.screen_diagonal << 
-			"\t RAM: " << tel.ram << "\n";
-		return out;
-	}
+	friend std::ostream& operator<<(std::ostream& out, const c_Smartphone& tel);
+
+
+	friend std::istream& operator << (std::istream& in, c_Smartphone& tel);
 };
 
