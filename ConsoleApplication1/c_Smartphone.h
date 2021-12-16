@@ -7,16 +7,10 @@ protected:
 	float screen_diagonal;
 	int ram;
 public:
-	c_Smartphone() : c_BaseTelephone()
-	{
-		this->screen_diagonal = 0;
-		this->ram = 0;
-	}
-	c_Smartphone(const char* name, const char* model, float diagonal, int ram) : c_BaseTelephone(name, model)
-	{
-		this->screen_diagonal = diagonal;
-		this->ram = ram;
-	}
+	c_Smartphone();
+	
+	c_Smartphone(const char* name, const char* model, float diagonal, int ram);
+	
 
 	friend std::ostream& operator<<(std::ostream& out, const c_Smartphone& tel);
 
