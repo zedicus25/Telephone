@@ -21,9 +21,15 @@
     <ClCompile Include="c_BaseTelephone.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="c_ButtonTelephone.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="c_BaseTelephone.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="c_ButtonTelephone.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
