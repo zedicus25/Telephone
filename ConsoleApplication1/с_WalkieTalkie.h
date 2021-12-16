@@ -13,6 +13,4 @@ public:
 	void call(float frequency, float distance);
 
 	friend std::ostream& operator<<(std::ostream& out, const ñ_WalkieTalkie& tel);
-
 };
-

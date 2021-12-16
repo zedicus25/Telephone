@@ -142,12 +142,14 @@
     <ClCompile Include="ConsoleApplication1.cpp" />
     <ClCompile Include="c_BaseTelephone.cpp" />
     <ClCompile Include="c_ButtonTelephone.cpp" />
+    <ClCompile Include="c_Contact.cpp" />
     <ClCompile Include="c_Smartphone.cpp" />
     <ClCompile Include="с_WalkieTalkie.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="c_BaseTelephone.h" />
     <ClInclude Include="c_ButtonTelephone.h" />
+    <ClInclude Include="c_Contact.h" />
     <ClInclude Include="c_Smartphone.h" />
     <ClInclude Include="с_WalkieTalkie.h" />
   </ItemGroup>
